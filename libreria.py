@@ -3,3 +3,13 @@ def validar_entero(n):
         return True
     else:
         return False
+
+def validar_rango(n, ri, rf):
+    if ( validar_entero(n) == True):
+        if (n >= ri and n <= rf):
+            return True
+        else:
+            return False
+    else:
+        return False
+
