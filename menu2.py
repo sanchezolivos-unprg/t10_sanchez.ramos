@@ -16,7 +16,7 @@ def nombre_colegio():
 opc=0
 max=4
 while (opc != 4):
-    print("######### NOMBRE DEL ALUMNO ##########")
+    print("######### DATOS DEL ALUMNO ##########")
     print("1. ALUMNO: Nombre")
     print("2. EDAD: Edad Del Alumno")
     print("3. COLEGIO: Nombre Del Colegio")
