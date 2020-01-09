@@ -89,3 +89,10 @@ def mascara(bit1, bit2):
         return "1"
     else:
         return "0"
+
+def enmascarar(byte1, byte2):
+    mask=""
+    for i in range(8):
+        mask += mascara(byte1[i], byte2[i])
+    #fin_for
+    return mask
