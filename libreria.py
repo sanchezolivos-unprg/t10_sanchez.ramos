@@ -76,3 +76,10 @@ def validar_byte(byte):
     # Si llego hasta aqui, es porque es un Byte correcto
     return True
 #fin_validar_byte
+
+def pedir_byte(msg):
+    byte=""
+    while( validar_byte(byte) == False):
+        byte=input(msg)
+    return byte
+#fin_pedir_byte
