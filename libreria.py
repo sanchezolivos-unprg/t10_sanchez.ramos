@@ -39,3 +39,8 @@ def pedir_nombre(msg):
     #fin_while
     return nombre
 #fin_pedir_nombre
+
+def guardar_datos(nombre_archivo, contenido, modo):
+    archivo=open(nombre_archivo, modo)
+    archivo.write(contenido)
+    archivo.close()
