@@ -43,6 +43,5 @@ while (opc != max):
 
     if (opc == 5):
         opcion_trapecio()
-
 # fin_menu
 print("fin del programa")
