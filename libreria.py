@@ -50,3 +50,9 @@ def obtener_datos(nombre_archivo):
     contenido = archivo.read()
     archivo.close()
     return contenido
+
+def obtener_datos_lista(nombre_archivo):
+    archivo=open(nombre_archivo)
+    lista = archivo.readlines()
+    archivo.close()
+    return lista
