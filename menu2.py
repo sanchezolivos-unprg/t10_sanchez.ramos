@@ -33,6 +33,7 @@ while (opc != 4):
 
     if (opc == 3):
         nombre_colegio()
-
 # fin_menu
+
 print("Fin Del Programa")
+
