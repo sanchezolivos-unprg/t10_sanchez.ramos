@@ -31,3 +31,11 @@ def validar_nombre(nombre):
             return False
     else:
         return False
+
+def pedir_nombre(msg):
+    nombre=""
+    while ( validar_nombre(nombre) == False ):
+        nombre=input(msg)
+    #fin_while
+    return nombre
+#fin_pedir_nombre
