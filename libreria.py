@@ -44,3 +44,9 @@ def guardar_datos(nombre_archivo, contenido, modo):
     archivo=open(nombre_archivo, modo)
     archivo.write(contenido)
     archivo.close()
+
+def obtener_datos(nombre_archivo):
+    archivo=open(nombre_archivo)
+    contenido = archivo.read()
+    archivo.close()
+    return contenido
