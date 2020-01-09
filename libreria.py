@@ -22,3 +22,12 @@ def pedir_numero(msg, ri, rf):
     #fin_while
     return n
 #fin_pedir_numero
+
+def validar_nombre(nombre):
+    if ( isinstance(nombre, str)):
+        if (len(nombre) >= 3):
+            return True
+        else:
+            return False
+    else:
+        return False
