@@ -56,3 +56,23 @@ def obtener_datos_lista(nombre_archivo):
     lista = archivo.readlines()
     archivo.close()
     return lista
+
+def validar_byte(byte):
+    # 1. Ocupa 8 caracteres
+    if ( len(byte) != 8):
+        return False
+
+    # 2. La cadena debe ser digitos
+    if ( byte.isdigit() == False ):
+        return False
+
+    # 3. Cada caracter debe ser 0 o 1
+    for bit in byte:
+        if ( bit != "0" and bit != "1" ):
+            return False
+        #fin_if
+    #fin_for
+
+    # Si llego hasta aqui, es porque es un Byte correcto
+    return True
+#fin_validar_byte
