@@ -83,3 +83,9 @@ def pedir_byte(msg):
         byte=input(msg)
     return byte
 #fin_pedir_byte
+
+def mascara(bit1, bit2):
+    if ( bit1 == "1" and bit2 == "1" ):
+        return "1"
+    else:
+        return "0"
