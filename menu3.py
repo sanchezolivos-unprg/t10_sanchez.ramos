@@ -3,10 +3,16 @@ import libreria
 def precioguitarra():
     a = libreria.pedir_numero("ingrese el precio de la guitarra: ", 0, 500)
     print("el precio es: " + str(a) + " " + "$")
+    contenido = str(a) + "-" + "\n"
+    libreria.guardar_datos("info.txt",contenido,"a")
+    print("se han guardado los datos")
 
 def preciobateria():
     b = libreria.pedir_numero("ingrese el precio de la bateria: ", 0, 500)
     print("el precio de la bateria es: " + str(b) + " " + "$")
+    contenido = str(b)
+    libreria.guardar_datos("info.txt",contenido,"a")
+    print("se han guardado los datos")
 
 opc = 0
 final = 3
