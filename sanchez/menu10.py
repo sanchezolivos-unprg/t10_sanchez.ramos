@@ -1,4 +1,5 @@
-import libreria
+from sanchez import libreria
+
 
 def opc_fcbarcelona():
     print("el mejor club de la liga española y del mundo")

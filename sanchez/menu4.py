@@ -1,9 +1,10 @@
-import libreria
+from sanchez import libreria
+
 
 def opc_cuaderno():
     print("ingreso la lista de cuaderno")
     contenido = "cuadernos" + "-"
-    libreria.guardar_datos("info.txt",contenido,"a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def opc_libros():
@@ -35,7 +36,7 @@ while (opc != max):
     print("5. SALIR: fin del programa")
     print("##########################################")
 
-    opc = libreria.pedir_numero("ingrese la opcion: ",1, 5)
+    opc = libreria.pedir_numero("ingrese la opcion: ", 1, 5)
 
     if (opc == 1):
         opc_cuaderno()

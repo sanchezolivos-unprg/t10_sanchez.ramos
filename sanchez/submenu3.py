@@ -1,15 +1,16 @@
-import libreria
+from sanchez import libreria
+
 
 def verdura1():
     x  = libreria.pedir_nombre("ingrese el nombre de la verdura: ")
     contenido = x + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def verdura2():
     y = libreria.pedir_nombre("ingrese el nombre de la verdura: ")
     contenido = y + "\n"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def opc_verduras():
@@ -22,7 +23,7 @@ def opc_verduras():
         print("3. SALIR")
         print("==================================")
 
-        opc = libreria.pedir_numero("ingrese la opcion: ",1, 3)
+        opc = libreria.pedir_numero("ingrese la opcion: ", 1, 3)
 
         if (opc == 1):
             verdura1()

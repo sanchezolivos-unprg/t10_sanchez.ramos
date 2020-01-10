@@ -1,9 +1,10 @@
-import libreria
+from sanchez import libreria
+
 
 def opc_ballet():
     print("su origen del ballet es de italia")
     contenido = "su origen del ballet es de italia" + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def opc_tango():

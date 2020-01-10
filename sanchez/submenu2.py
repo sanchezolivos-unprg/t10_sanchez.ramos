@@ -1,4 +1,5 @@
-import libreria
+from sanchez import libreria
+
 
 def opc_electronica():
     profesion = libreria.pedir_nombre("ingrese el nombre de la primera carrera profesional: ")
@@ -9,19 +10,19 @@ def opc_electronica():
 def opc_civil():
     profesion2 = libreria.pedir_nombre("ingrese el nombre de la segunda carrera profesional: ")
     contenido = profesion2 + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def opc_mecanicaelectrica():
     profesion3 = libreria.pedir_nombre("ingrese el nombre de la tercera carrera profesional: ")
     contenido = profesion3 + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def opc_computinformatica():
     profesion4 = libreria.pedir_nombre("ingrese el nombre de la cuarta carrera profesional: ")
     contenido = profesion4 + "\n"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 # submenu_2

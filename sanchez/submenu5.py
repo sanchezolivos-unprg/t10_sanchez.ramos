@@ -1,15 +1,16 @@
-import libreria
+from sanchez import libreria
+
 
 def nombre_estudiante():
     x = libreria.pedir_nombre("ingrese el nombre del estudiante: ")
     contenido = x + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("se han guardado los datos")
 
 def edad_estudiante():
     y = libreria.pedir_numero("ingrese la edad del estudiante: ", 1, 100)
     contenido = str(y) + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("se han guardado los datos")
 
 def carrera_profesional():

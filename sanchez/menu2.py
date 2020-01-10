@@ -1,24 +1,25 @@
-import libreria
+from sanchez import libreria
+
 
 def nombre_alumno():
     nombre = libreria.pedir_nombre("ingrese el nombre del alumno: ")
     print("el nombre del alumno es: ", nombre)
     contenido = nombre + " \n"
-    libreria.guardar_datos("info.txt",contenido,"a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def edad_alumno():
     edad= libreria.pedir_numero("ingrese la edad del alumno: ", 0, 80)
     print("la edad del alumno es de: " + str(edad) + " " + "Años")
     contenido = str(edad) + "-" + "\n"
-    libreria.guardar_datos("info.txt",contenido,"a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def nombre_colegio():
     colegio= libreria.pedir_nombre("ingrese el nombre del colegio: ")
     print("el colegio es: ", colegio)
     contenido = colegio + "-" + "\n"
-    libreria.guardar_datos("info.txt",contenido,"a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 # fin_def
 

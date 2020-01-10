@@ -1,11 +1,12 @@
-import libreria
+from sanchez import libreria
+
 
 def opcionSumar():
     x = libreria.pedir_numero("INGRESE EL PRIMER NUMERO: ", 0, 300)
     y = libreria.pedir_numero("INGRESE EL SEGUNDO NUMERO: ", 0, 300)
     print("la suma es: ", x + y)
     contenido = str(x) + "-" + str(y) + "\n"
-    libreria.guardar_datos("info.txt",contenido,"a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def opcionRestar():
@@ -13,7 +14,7 @@ def opcionRestar():
     y = libreria.pedir_numero("INGRESE EL SEGUNDO NUMERO: ", 0, 300)
     print("la resta es: ", x - y)
     contenido = str(x) + "-" + str(y) + "\n"
-    libreria.guardar_datos("info.txt", contenido,"a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 opc=0

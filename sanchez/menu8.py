@@ -1,10 +1,11 @@
-import libreria
+from sanchez import libreria
+
 
 def prec_pes2020():
     x = libreria.pedir_numero("ingrese la cantidad de horas de juego: ", 1, 24)
     print("total a pagar: " + str(x * 3) + " " + "$")
     contenido = str(x) + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("se guardaron los datos")
 
 def prec_gtasanandreas():

@@ -1,10 +1,11 @@
-import libreria
+from sanchez import libreria
+
 
 def precio_fresa():
     a = libreria.pedir_numero("ingrese la cantidad de kilos de fresas: ", 0, 100)
     print("el total del precio de fresas es de: " + str(a * 2) + " " + "$")
     contenido = str(a) + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def precio_platano():

@@ -1,10 +1,11 @@
-import libreria
+from sanchez import libreria
+
 
 # el precio de los celulares ultima generacion del 2019
 def precio_samsung():
     print("el precio del celular samsung ultima generacion es de 1150 soles")
     contenido = "el precio del celular samsung ultima generacion es de 1150 soles" + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def precio_huawei():

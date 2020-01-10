@@ -1,9 +1,10 @@
-import libreria
+from sanchez import libreria
+
 
 def opc_game1():
     juego1 = libreria.pedir_nombre("ingrese el nombre del juego 1: ")
     contenido = juego1 + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
 def opc_game2():
@@ -30,7 +31,7 @@ def opc_games():
         print("4. SALIR")
         print("###########################################")
 
-        opc = libreria.pedir_numero("ingrese la opcion: ",1, 4)
+        opc = libreria.pedir_numero("ingrese la opcion: ", 1, 4)
 
         if (opc == 1):
             opc_game1()

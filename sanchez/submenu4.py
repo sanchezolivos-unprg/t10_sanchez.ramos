@@ -1,9 +1,10 @@
-import libreria
+from sanchez import libreria
+
 
 def guitarra():
     x = libreria.pedir_nombre("ingrese el nombre del instrumento de cuerda: ")
     contenido = x + "-"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("se guardaron los datos")
 
 def violin():

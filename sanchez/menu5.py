@@ -1,9 +1,10 @@
-import libreria
+from sanchez import libreria
+
 
 def opcion_triangulo():
     print("el area del triangulo es: b.h/2")
     contenido = "area del triangulo es: b.h/2" + "-" + "\n"
-    libreria.guardar_datos("info.txt",contenido, "a")
+    libreria.guardar_datos("info.txt", contenido, "a")
     print("se han guardado los datos")
 
 def opcion_circulo():
