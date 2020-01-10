@@ -2,16 +2,27 @@ import libreria
 
 def opc_cuaderno():
     print("ingreso la lista de cuaderno")
+    contenido = "cuadernos" + "-"
+    libreria.guardar_datos("info.txt",contenido,"a")
+    print("los datos han sido guardados")
 
-def  opc_libros():
+def opc_libros():
     print("ingreso la lista de libros")
+    contenido = "libros" + "-"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("los datos han sido guardados")
 
 def opc_reglas():
     print("ingreso la lista de reglas")
+    contenido = "reglas" + "-"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("los datos han sido guardados")
 
 def opc_lapiceros():
     print("ingreso la lista de lapiceros")
-
+    contenido = "lapiceros" + "\n"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("los datos han sido guardados")
 
 opc = 0
 max = 5

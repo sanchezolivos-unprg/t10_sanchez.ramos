@@ -17,7 +17,7 @@ def edad_alumno():
 def nombre_colegio():
     colegio= libreria.pedir_nombre("ingrese el nombre del colegio: ")
     print("el colegio es: ", colegio)
-    contenido = colegio
+    contenido = colegio + "-" + "\n"
     libreria.guardar_datos("info.txt",contenido,"a")
     print("los datos han sido guardados")
 # fin_def
