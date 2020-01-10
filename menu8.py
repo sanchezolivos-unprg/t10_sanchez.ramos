@@ -42,7 +42,7 @@ while (opc != end):
         prec_gtasanandreas()
 
     if (opc == 3):
-        # la hora por jugar LEFT FOR DEAD es de 2.50 soles
+        # la hora por jugar LEFT FOR DEAD es de 2.50 soles.
         prec_leftfordead()
 
 # fin_menu
