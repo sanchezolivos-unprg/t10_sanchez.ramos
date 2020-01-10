@@ -2,15 +2,27 @@ import libreria
 
 def opc_ballet():
     print("su origen del ballet es de italia")
+    contenido = "su origen del ballet es de italia" + "-"
+    libreria.guardar_datos("info.txt",contenido, "a")
+    print("los datos han sido guardados")
 
 def opc_tango():
     print("su origen del tango es argentina")
+    contenido = "su origen del tango es argentina" + "-"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("los datos han sido guardados")
 
 def opc_marinera():
     print("su origen de la marinera es de peru")
+    contenido = "su origen de la marinera es de peru" + "-"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("los datos han sido guardados")
 
 def opc_pooldance():
     print("su origen del pool dance es de inglaterra")
+    contenido = "su origen del pool dance es de inglaterra" + "\n"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("los datos han sido guardados")
 
 opc = 0
 max = 5
