@@ -3,18 +3,30 @@ import libreria
 def precio_fresa():
     a = libreria.pedir_numero("ingrese la cantidad de kilos de fresas: ", 0, 100)
     print("el total del precio de fresas es de: " + str(a * 2) + " " + "$")
+    contenido = str(a) + "-"
+    libreria.guardar_datos("info.txt",contenido, "a")
+    print("los datos han sido guardados")
 
 def precio_platano():
     b = libreria.pedir_numero("ingrese la cantidad de kilos de platanos: ", 0, 100)
     print("el total del precio de platanos es de: " + str(b * 3) + " " + "$")
+    contenido = str(b) + "-"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("los datos han sido guardados")
 
 def precio_manzana():
     c = libreria.pedir_numero("ingrese la cantidad de kilos de manzanas: ", 0, 100)
     print("el total del precio de manzanas es de: " + str(c * 2) + " " + "$")
+    contenido = str(c) + "-"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("los datos han sido guardados")
 
 def precio_mango():
     d = libreria.pedir_numero("ingrese la cantidad de kilos de mangos: ", 0, 100)
     print("el total del precio de mangos es de: " + str(d * 3) + " " + "$")
+    contenido = str(d) + "-" + "\n"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("los datos han sido guardados")
 
 opc = 0
 max = 5

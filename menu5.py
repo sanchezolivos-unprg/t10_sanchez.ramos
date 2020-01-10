@@ -2,18 +2,33 @@ import libreria
 
 def opcion_triangulo():
     print("el area del triangulo es: b.h/2")
+    contenido = "area del triangulo es: b.h/2" + "-" + "\n"
+    libreria.guardar_datos("info.txt",contenido, "a")
+    print("se han guardado los datos")
 
 def opcion_circulo():
     print("el area del circulo es: pi*r**2")
+    contenido = "area del circulo es: pi*r**2" + "-"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("se han guardado los datos")
 
 def opcion_cuadrado():
     print("el area del cuadrado es: lado*lado")
+    contenido = "area del cuadrado es: lado*lado" + "-"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("se han guardado los datos")
 
 def opcion_rectangulo():
     print("el area del rectangulo es: ancho*haltura")
+    contenido = "area del rectangulo es: ancho*haltura" + "-"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("se han guardado los datos")
 
 def opcion_trapecio():
     print("el area del trapecio es: (base mayor + base menor)*(haltura)/2" )
+    contenido = "area del trapecio es: (base mayor + base menor)*(haltura)/2" + "\n"
+    libreria.guardar_datos("info.txt", contenido, "a")
+    print("se han guardado los datos")
 
 opc = 0
 max = 6

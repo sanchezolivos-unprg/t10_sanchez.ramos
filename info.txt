@@ -3,7 +3,5 @@
 8-7
 galileojorgehugogojch24pedro abel labarthe durand
 200-250
-cuadernos-
-libros-
-reglas-
-lapiceros
+cuadernos-libros-reglas-lapiceros
+area del triangulo es: b.h/2-area del circulo es: pi*r**2-area del cuadrado es: lado*lado-area del rectangulo es: ancho*haltura-area del trapecio es: (base mayor + base menor)*(haltura)/2
