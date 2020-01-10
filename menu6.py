@@ -24,7 +24,7 @@ def precio_manzana():
 def precio_mango():
     d = libreria.pedir_numero("ingrese la cantidad de kilos de mangos: ", 0, 100)
     print("el total del precio de mangos es de: " + str(d * 3) + " " + "$")
-    contenido = str(d) + "-" + "\n"
+    contenido = str(d) + "\n"
     libreria.guardar_datos("info.txt", contenido, "a")
     print("los datos han sido guardados")
 
